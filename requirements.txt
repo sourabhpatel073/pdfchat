@@ -107,7 +107,7 @@ torch== 1.13.1
 torchvision==0.14.1
 tornado==6.2b2
 tqdm==4.66.1
-transformers==4.32.1
+transformers==4.30.2
 Twisted==22.10.0
 twisted-iocpsupport==1.0.4
 txaio==23.1.1
