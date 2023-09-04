@@ -121,5 +121,5 @@ virtualenv==20.24.2
 watchdog==3.0.0
 websockets==11.0.3
 yarl==1.9.2
-zipp==3.16.2
+zipp==3.15.0
 zope.interface==6.0
