@@ -105,7 +105,7 @@ toml==0.10.2
 toolz==0.12.0
 torch== 1.13.1
 torchvision==0.14.1
-tornado==6.3.3
+tornado==6.2b2
 tqdm==4.66.1
 transformers==4.32.1
 Twisted==22.10.0
