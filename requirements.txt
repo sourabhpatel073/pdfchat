@@ -23,7 +23,7 @@ Django==3.2
 django-cors-headers==4.1.0
 django-templated-mail==1.1.1
 djangorestframework==3.14.0
-djangorestframework-jwt==1.11.0
+
 djangorestframework-simplejwt==4.6.0
 djoser== 2.1.0
 entrypoints==0.4
