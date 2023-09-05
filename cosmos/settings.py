@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-c9&a44@(2y@8s9h-7-n=8*!yrjniwrnodtm1rdf1yo_%69==-w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*",]
 
 OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
 
