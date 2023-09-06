@@ -1,5 +1,5 @@
 from django.contrib.auth.models import User
-from djangorestframework-jwt import status
+from rest_framework import status
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from .models import Chat, Message, PDFDocument, UserHistory, UserProfile
