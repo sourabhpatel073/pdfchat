@@ -100,7 +100,7 @@ six==1.16.0
 smmap==5.0.0
 social-auth-app-django==4.0.0
 social-auth-core==4.4.2
-soupsieve==2.5
+soupsieve==2.4.1
 SQLAlchemy==2.0.20
 sqlparse==0.4.4
 sympy==1.10.1
