@@ -114,7 +114,8 @@ torchvision==0.14.1
 tornado==6.2b2
 tqdm==4.66.1
 Twisted==22.10.0
-rest_framework_jwt
+rest_framework_jwt==1.11.0
+
 txaio==23.1.1
 typing-inspect==0.9.0
 typing_extensions==4.7.1
