@@ -163,25 +163,27 @@ from .pdf_processing import process_uploaded_pdfs, handle_user_question
 @csrf_exempt
 def upload_pdfs(request):
     if request.method == "POST":
-        uploaded_pdfs = request.FILES.getlist('pdfs')
+        # uploaded_pdfs = request.FILES.getlist('pdfs')
        
-        x=process_uploaded_pdfs(uploaded_pdfs)
-        print(x)
-        return JsonResponse({"status": "success", "message": "PDFs processed successfully.","data":x["scripttext"],"pdfname":x["pdfname"],"pdfsize":x["pdfsize"]})
+        # x=process_uploaded_pdfs(uploaded_pdfs)
+        # print(x)
+        # return JsonResponse({"status": "success", "message": "PDFs processed successfully.","data":x["scripttext"],"pdfname":x["pdfname"],"pdfsize":x["pdfsize"]})
+        return JsonResponse({"status": "success"})
     return JsonResponse({"status": "error", "message": "Only POST requests are accepted."})
 
 
 @csrf_exempt
 def ask_question(request):
     if request.method == "POST":
-        user_question = request.POST.get('question')
+        # user_question = request.POST.get('question')
         
-        # Validate that the user_question is a non-empty string
-        if not user_question or not isinstance(user_question, str):
-            return JsonResponse({"status": "error", "message": "Invalid question format."})
+        # # Validate that the user_question is a non-empty string
+        # if not user_question or not isinstance(user_question, str):
+        #     return JsonResponse({"status": "error", "message": "Invalid question format."})
 
-        response_data = handle_user_question(user_question)
-        return JsonResponse(response_data)
+        # response_data = handle_user_question(user_question)
+        # return JsonResponse(response_data)
+        return JsonResponse({status:"success"})
     return JsonResponse({"status": "error", "message": "Only POST requests are accepted."})
 
 
